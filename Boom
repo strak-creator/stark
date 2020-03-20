@@ -21,7 +21,7 @@ def main():
 	user = driver.find_element_by_xpath('//span[@title = "{}"]'.format(name))
 	user.click()
 	
-	# The classname of message box may vary.
+	
 	msg_box = driver.find_element_by_class_name('_13mgZ') 
 		
 	for i in range(count):
